@@ -1,0 +1,44 @@
+
+
+main{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+
+header{
+    background-image: url(./background.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #62755B;
+}
+
+.bottom { 
+    width: 100%;
+    text-align: center;
+}
+
+.livre{
+    color: #F0BC00;
+}
+
+.bottom th{ 
+    color: #FFFF; 
+}
+
+.top { 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.top th{ 
+    justify-content: center;
+}
