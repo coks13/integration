@@ -10,36 +10,95 @@
 <body>
 <header>
    
-    <table class="top">
-            <th><img src="photo.svg" alt=""> <br> @Alice.p</th> 
-    </table>
+<img src="photo.svg" alt=""> <br> @Alice.p
 </header>
 
 <main>
 
-<div>
-    <h1>Petit déjeuner</h1>
-</div>
+    <section class='planningList'>
+    <input id="planning" type="button" value="Planning">
+    <input id="listeCourse" type="button" value="Liste de courses">
+    </section>
 
-<div>
-    <h1>Déjeuner</h1>
-</div>
 
-<div>
-    <h1>Diner</h1>
+<section class='jourSemaine'>
+    <input class="lundi" type="button" value="Lun">
+    <input class="mardi" type="button" value="Mar">
+    <input class="mercredi" type="button" value="Mer">
+    <input class="jeudi" type="button" value="Jeu">
+    <input class="vendredi" type="button" value="Ven">
+    <input class="samedi" type="button" value="Sam">
+    <input class="dimanche" type="button" value="Dim">
+</section>
+
+<section class="rubrique" id="rubrique">
+<section class="petitDejeuner">
+    <h1>Petit déjeuner <input class="plus" type="button" value="+"> </h1>
+        <div class="uneRecette">
+            <figure><img src="photoPtitDej.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
 </div>
+</section>
+
+<section class="dejeuner">
+    <h1>Déjeuner <input class="plus" type="button" value="+"> </h1>
+        <div class="troisRecette">
+            <figure><img src="dejeuner1.svg"> <figcaption>PTITDEJ1</figcaption> </figure>
+            <figure><img src="dejeuner2.png"> <figcaption>PTITDEJ1</figcaption> </figure>
+            <figure><img src="dejeuner3.png"> <figcaption>PTITDEJ1</figcaption> </figure></div>
+</section>
+
+
+
+<section class="diner">
+    <h1>Diner <input class="plus" type="button" value="+"> </h1>
+        <div class="troisRecette">
+            <figure><img src="repas1.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
+            <figure><img src="repas2.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
+            <figure><img src="repas3.jpg"> <figcaption>PTITDEJ1</figcaption> </figure></div>
+</section>
+</section>
+
+
+
+
+
+
+
+<section class="ingredients" id="ingredients">
+<section>
+    <section class="filtrer">
+        <select  classe="monselect">
+            <option value="filtre"selected>Filtrer</option>
+            <option value="valeur1" >Valeur 2</option>
+            <option value="valeur2">Valeur 3</option>
+        </select>
+    </section>
+        <ul class="chexbox">
+            <li> <input type="checkbox"> Poulet 600g</li>
+            <li> <input type="checkbox"> Oignon 100g</li>
+            <li> <input type="checkbox"> Poivron 100g</li>
+            <li> <input type="checkbox"> Carotte 200g</li>
+            <li> <input type="checkbox"> Sauce soja 2 cuillères</li>
+            <li> <input type="checkbox"> Tortilllas 4 pièces</li>
+            <li> <input type="checkbox"> Avocat 4</li>
+            <li> <input type="checkbox"> Ail 2 gousses</li>
+        </ul>
+</section>
+</section>
+
 
 </main>
 
 <footer>
-    <table class="bottom">
-        <th><img src="home.svg" alt=""> Accueil </th>
-        <th class="livre"> <img src="recette.svg" alt=""> Livre </th>
-        <th> <img src="search.svg" alt="">Recherche</th>
-        <th> <img src="notif.svg" alt="">Activité</th>
-        <th> <img src="profil.svg" alt="">Profil</th>
-    </table>
+      <section class="bottom">
+        <figure><img src="accueil.svg" alt=""> <figcaption>Accueil</figcaption> </figure>
+        <figure><img src="livre.svg" alt=""> <figcaption>livre</figcaption> </figure>
+        <figure><img src="recherche.svg" alt=""> <figcaption>Recherche</figcaption> </figure>
+        <figure><img src="notif.svg" alt=""> <figcaption>Activité</figcaption> </figure>
+        <figure><img src="profil.svg" alt=""> <figcaption>Profil</figcaption> </figure>
+  </section> 
 </footer>
 
 </body>
+<script src="java.js"></script>
 </html>
