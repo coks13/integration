@@ -24,6 +24,10 @@ time, mark, audio, video {
     font-family: "Gastromond";
     src: url("Gastromond.woff2"), url("Gastromond.woff");
   }
+
+  ul{
+      list-style: none;
+  }
   
   @font-face {
     font-family: "Superclarendon";
@@ -38,6 +42,7 @@ body
 {
     overflow-x: hidden;
     position: relative;
+    padding-bottom: 5em;
 }
 
 header{
@@ -68,7 +73,8 @@ footer
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 12%;
+    height: 5em;
+    
 }
 
 .bottom figure { 
@@ -110,6 +116,7 @@ h1
 {
     background-color: rgb(0, 255, 34);
     text-align: center;
+    margin:10px;
 }
 
 .jourSemaine
@@ -152,7 +159,9 @@ display: flex;
 
 
 
-
+.plus{
+    margin-bottom: 30px;
+}
 
 .chexbox{
     margin-left:73px;
@@ -164,10 +173,10 @@ display: flex;
 
 }
 
-
-
 @media screen and (min-width: 600px) {
     footer {
       display: none;
+      padding-bottom: 0em;
+
     }
   }
