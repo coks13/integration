@@ -91,7 +91,9 @@ footer
     color: #F0BC00;
 }
 
-
+.pseudo{
+    font-size: 30px;
+}
 .top { 
     display: flex;
     text-align: center;
@@ -110,13 +112,14 @@ main
 h1
 {
     font-family: "Gastromond";
+    font-size: 20px;
+    margin: 15px;
 }
 
 .button-base
 {
     background-color: #42593C;
     padding: 10px;
-    border-radius: 20%;
     text-align: center;
     font-size: 18px;
     margin-bottom: 40px;
@@ -124,6 +127,7 @@ h1
 }
 .fleche{
     margin-bottom: 60px;
+
 }
 .livre{
     color: #F0BC00;
@@ -143,11 +147,9 @@ h1
 
 }
 
-.jourSemaine
-{
+.jourSemaine{
     background-color: #42593C;
     padding: 10px;
-    border-radius: 20%;
     text-align: center;
     font-size: 18px;
     margin-bottom: 40px;
@@ -182,8 +184,8 @@ display: flex;
 
 .plus{
     margin-bottom: 30px;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .chexbox{
@@ -193,6 +195,9 @@ display: flex;
 
 }
 
+.button-arriere{
+    transform: rotate(180deg);
+}
 
 
 nav {
@@ -240,7 +245,6 @@ nav {
 {
     background-color: #42593C;
     padding: 10px;
-    border-radius: 20%;
     text-align: center;
     font-size: 50px;
 }
@@ -263,4 +267,21 @@ nav {
     footer{
         background-color: #C3F3B7;
     }
+    .button-arriere
+    {
+        display: none;
+    }
+    .photo-profil
+    {
+        display: none;
+    }
+    .pseudo
+    {
+        display: none;
+    }
   }
+
+
+
+
+  
