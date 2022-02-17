@@ -10,41 +10,42 @@
 <body>
 <header>
    
+<img class="fleche"src="Fleche.svg" alt="">
 <img src="photo.svg" alt=""> <br> @Alice.p
 </header>
 
 <main>
 
-    <section class='planningList'>
-    <input id="planning" type="button" value="Planning">
-    <input id="listeCourse" type="button" value="Liste de courses">
+    <section class='button-base'>
+    <input class="planning" id="planning" type="button" value="Planning">
+    <input class=listeCourse id="listeCourse" type="button" value="Liste de courses">
     </section>
 
 
 <section class='jourSemaine'>
-    <input class="lundi" type="button" value="Lun">
-    <input class="mardi" type="button" value="Mar">
-    <input class="mercredi" type="button" value="Mer">
-    <input class="jeudi" type="button" value="Jeu">
-    <input class="vendredi" type="button" value="Ven">
-    <input class="samedi" type="button" value="Sam">
-    <input class="dimanche" type="button" value="Dim">
+    <input class="selction-jour" type="button" value="Lun">
+    <input class="selction-non" type="button" value="Mar">
+    <input class="selction-non" type="button" value="Mer">
+    <input class="selction-non" type="button" value="Jeu">
+    <input class="selction-non" type="button" value="Ven">
+    <input class="selction-non" type="button" value="Sam">
+    <input class="selction-non" type="button" value="Dim">
 </section>
 
 <section class="rubrique" id="rubrique">
 <section class="petitDejeuner">
     <h1>Petit déjeuner <input class="plus" type="button" value="+"> </h1>
         <div class="uneRecette">
-            <figure><img src="photoPtitDej.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
+            <figure><img src="photoPtitDej.jpg"> <figcaption>Buddha bowl</figcaption> </figure>
 </div>
 </section>
 
 <section class="dejeuner">
     <h1>Déjeuner <input class="plus" type="button" value="+"> </h1>
         <div class="troisRecette">
-            <figure><img src="dejeuner1.svg"> <figcaption>PTITDEJ1</figcaption> </figure>
-            <figure><img src="dejeuner2.png"> <figcaption>PTITDEJ1</figcaption> </figure>
-            <figure><img src="dejeuner3.png"> <figcaption>PTITDEJ1</figcaption> </figure></div>
+            <figure><img src="dejeuner1.svg"> <figcaption>Avocat au saumon</figcaption> </figure>
+            <figure><img src="dejeuner2.png"> <figcaption>Poivrons cuisson</figcaption> </figure>
+            <figure><img src="dejeuner3.png"> <figcaption>Dessert avec fraise</figcaption> </figure></div>
 </section>
 
 
@@ -52,9 +53,9 @@
 <section class="diner">
     <h1>Diner <input class="plus" type="button" value="+"> </h1>
         <div class="troisRecette">
-            <figure><img src="repas1.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
-            <figure><img src="repas2.jpg"> <figcaption>PTITDEJ1</figcaption> </figure>
-            <figure><img src="repas3.jpg"> <figcaption>PTITDEJ1</figcaption> </figure></div>
+            <figure><img src="repas1.jpg"> <figcaption>Viande Cuite</figcaption> </figure>
+            <figure><img src="repas2.jpg"> <figcaption>Repas Healty</figcaption> </figure>
+            <figure><img src="repas3.jpg"> <figcaption>Dessert Soir</figcaption> </figure></div>
 </section>
 </section>
 
@@ -71,7 +72,7 @@
             <option value="filtre"selected>Filtrer</option>
             <option value="valeur1" >Lundi</option>
             <option value="valeur2">Mardi</option>
-            <option value="valeur3" >Mercredu</option>
+            <option value="valeur3" >Mercredi</option>
             <option value="valeur4" >Jeudi</option>
             <option value="valeur5" >Vendredi</option>
             <option value="valeur6" >Samedi</option>
@@ -80,14 +81,14 @@
         </select>
     </section>
         <ul class="chexbox">
-            <li> <input type="checkbox"> Poulet 600g</li>
-            <li> <input type="checkbox"> Oignon 100g</li>
-            <li> <input type="checkbox"> Poivron 100g</li>
-            <li> <input type="checkbox"> Carotte 200g</li>
-            <li> <input type="checkbox"> Sauce soja 2 cuillères</li>
-            <li> <input type="checkbox"> Tortilllas 4 pièces</li>
-            <li> <input type="checkbox"> Avocat 4</li>
-            <li> <input type="checkbox"> Ail 2 gousses</li>
+            <li> <input class="chexbox" type="checkbox"> Poulet 600g</li>
+            <li> <input class="chexbox" type="checkbox"> Oignon 100g</li>
+            <li> <input class="chexbox" type="checkbox"> Poivron 100g</li>
+            <li> <input class="chexbox" type="checkbox"> Carotte 200g</li>
+            <li> <input class="chexbox" type="checkbox"> Sauce soja 2 cuillères</li>
+            <li> <input class="chexbox" type="checkbox"> Tortilllas 4 pièces</li>
+            <li> <input class="chexbox" type="checkbox"> Avocat 4</li>
+            <li> <input class="chexbox" type="checkbox"> Ail 2 gousses</li>
         </ul>
 </section>
 </section>
@@ -98,7 +99,7 @@
 <footer>
       <section class="bottom">
         <figure><img src="accueil.svg" alt=""> <figcaption>Accueil</figcaption> </figure>
-        <figure><img src="livre.svg" alt=""> <figcaption>livre</figcaption> </figure>
+        <figure><img class="livre" src="livre.svg" alt=""> <figcaption>livre</figcaption> </figure>
         <figure><img src="recherche.svg" alt=""> <figcaption>Recherche</figcaption> </figure>
         <figure><img src="notif.svg" alt=""> <figcaption>Activité</figcaption> </figure>
         <figure><img src="profil.svg" alt=""> <figcaption>Profil</figcaption> </figure>
