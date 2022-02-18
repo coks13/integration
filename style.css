@@ -39,8 +39,7 @@ time, mark, audio, video {
 
   /* fin des polices */
 
-body
-{
+body{
     overflow-x: hidden;
     position: relative;
     padding-bottom: 5em;
@@ -75,7 +74,6 @@ footer
     background-color: #62755B;
     justify-content: center;
     text-align: center;
-
     
 }
 
@@ -98,6 +96,9 @@ footer
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.container-recettes{
+    border-radius: 10%;
 }
 
 .top th{ 
@@ -148,7 +149,9 @@ h2
     margin-bottom: 40px;
     margin-top: 10px;
 }
-
+.repas{
+    border-radius: 10px;
+}
 .uneRecette img
 {
     max-width: 90%;
@@ -162,11 +165,11 @@ display: flex;
 }
 
 
-.troisRecette img
+.container-recettes img
 {
     max-width: 90%;
 }
-.troisRecette
+.container-recettes
 {
     justify-content: center;
     text-align: center;
@@ -272,10 +275,6 @@ nav {
     .planning{
     font-size: 40px;
 }
-    .btn{
-        text-decoration:none; 
-
-    }
     h2{
         text-align: center;
         margin-top: 50px;
@@ -319,14 +318,14 @@ nav {
     }
     .logo-home{
         margin-top: 57px; 
-        margin-left: 10px;
+        margin-right: 75px;        
     }
     .selction-jour{
         font-size: 50px;
         margin-bottom: 25px;
         margin-left: 10px;
     }
-    .troisrecette{
+    .container-recettes{
         margin: 70px;
     }
     .selction-non{
@@ -335,7 +334,11 @@ nav {
         margin-left: 10px;
     }
     .btn{
-        margin-right: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: #F0BC00;
+        margin-top: 20px;
     }
     .style-1{
         font-size: 25px;

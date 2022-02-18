@@ -1,7 +1,7 @@
-let listePourCourse = document.getElementById("listePourCourse");
-let planning = document.getElementById("planning");
 let aliments = document.getElementById("aliments");
+let listePourCourse = document.getElementById("listePourCourse");
 let rubrique = document.getElementById("rubrique");
+let planning = document.getElementById("planning");
 
 aliments.style.display = "none";
 
