@@ -238,6 +238,9 @@ nav {
     .jour-desk{
         display: none;
     }
+    h3{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 850px) {
@@ -263,6 +266,9 @@ nav {
     }
     .listePourCourse{
     font-size: 50px;
+}
+    h3{
+    display: none;
 }
     header{
         background-image: none;
