@@ -43,7 +43,7 @@ body
     overflow-x: hidden;
     position: relative;
     padding-bottom: 5em;
-    background-color: #e1f6db;
+    background-color: #ffffff;
 
 }
 
@@ -109,7 +109,7 @@ main
     font-family: "Superclarendon";
 }
 
-h1
+h2
 {
     font-family: "Gastromond";
     font-size: 20px;
@@ -122,7 +122,6 @@ h1
     padding: 10px;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 40px;
     margin-top: 20px;
 }
 .fleche{
@@ -139,7 +138,7 @@ h1
     border-radius: 16px;
 }
 
-.listeCourse{
+.listePourCourse{
     font-size: 18px;
     background-color: #C3F3B7;
     font-family: "Superclarendon-light";
@@ -148,12 +147,11 @@ h1
 }
 
 .jourSemaine{
-    background-color: #42593C;
     padding: 10px;
     text-align: center;
     font-size: 18px;
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .uneRecette img
@@ -168,7 +166,10 @@ text-align: center;
 display: flex;
 }
 
-
+.repas{
+    width: 100%;
+    height: 100%;
+}
 .troisRecette img
 {
     max-width: 90%;
@@ -233,6 +234,12 @@ nav {
     nav{
         display: none;
     }
+    .photo-des{
+        display: none;
+    }
+    .jour-desk{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 750px) {
@@ -241,6 +248,7 @@ nav {
       padding-bottom: 0em;
 
     }
+
     .button-base
 {
     background-color: #42593C;
@@ -250,16 +258,23 @@ nav {
 }
     .planning{
     font-size: 50px;
-
 }
-
-    .listeCourse{
+    h2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .listePourCourse{
     font-size: 50px;
-
-
 }
     header{
         background-image: none;
+        border: 2px solid;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+        background-color: #f7f2f2;
+        height: 132px;
+        margin-bottom: 10px;
+        font-family: "Gastromond";
     }
     .fleche{
         display: none;
@@ -278,6 +293,43 @@ nav {
     .pseudo
     {
         display: none;
+    }
+    .logo-home{
+        margin-top: 57px; 
+    }
+    .selction-jour{
+        font-size: 50px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+    .troisrecette{
+        margin: 70px;
+    }
+    .selction-non{
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+
+
+    }
+    .style-1{
+        font-size: 25px;
+    }
+    .jourSemaine{
+        display: none;
+    }
+    .photo-des{
+        text-align: center;
+    }
+    .chexbox{
+        margin-left:300px;
+        margin-bottom: 50px;
+    }
+    .jour-desk{
+        float: left;
+        width: 15%;
+        height:700px;
+        margin-top: 50px;
     }
   }
 

@@ -13,9 +13,10 @@
 <header>
    
 <input class="button-arriere" type="button" value=">">
-<img class="photo-profil"src="photo.svg" alt=""> 
+<img class="photo-profil" src="photo.svg" alt=""> 
 <p class="pseudo">@Alice.p</p>
     <nav class="style-1">
+        <a href="#" class="logo-home"><img src="Logo.svg" alt=""></a>
 		<a href="#" class="btn">Home</a>
 		<a href="#" class="btn">Livre de cuisine</a>
 		<a href="#" class="btn">Recherche</a>
@@ -25,10 +26,12 @@
 </header>
 
 <main>
-
+    <div class="photo-des">
+    <img  src="photo.svg" alt=""> 
+    </div>
     <section class='button-base'>
     <input class="planning" id="planning" type="button" value="Planning">
-    <input class=listeCourse id="listeCourse" type="button" value="Liste de courses">
+    <input class=listePourCourse id="listePourCourse" type="button" value="Liste de courses">
     </section>
 
 
@@ -42,16 +45,26 @@
     <input class="selction-non" type="button" value="Dim">
 </section>
 
+<section class='jour-desk'>
+    <input class="selction-jour" type="button" value="Lundi">
+    <input class="selction-non" type="button" value="Mardi">
+    <input class="selction-non" type="button" value="Mercredi">
+    <input class="selction-non" type="button" value="Jeudi">
+    <input class="selction-non" type="button" value="Vendredi">
+    <input class="selction-non" type="button" value="Samedi">
+    <input class="selction-non" type="button" value="Dimanche">
+</section>
+
 <section class="rubrique" id="rubrique">
 <section class="petitDejeuner">
-    <h1>Petit dejeuner <input class="plus" type="button" value="+"> </h1>
+    <h2>Petit dejeuner <input class="plus" type="button" value="+"> </h2>
         <div class="uneRecette">
             <figure><img src="petitdejeuner.jpg"> <figcaption>Buddha bowl</figcaption> </figure>
 </div>
 </section>
 
 <section class="dejeuner">
-    <h1>Dejeuner <input class="plus" type="button" value="+"> </h1>
+    <h2>Dejeuner <input class="plus" type="button" value="+"> </h2>
         <div class="troisRecette">
             <figure><img src="dejeuner1.svg"> <figcaption>Avocat au saumon</figcaption> </figure>
             <figure><img src="dejeuner2.png"> <figcaption>Poivrons cuisson</figcaption> </figure>
@@ -61,11 +74,11 @@
 
 
 <section class="diner">
-    <h1>Repas <input class="plus" type="button" value="+"> </h1>
+    <h2>Repas <input class="plus" type="button" value="+"> </h2>
         <div class="troisRecette">
-            <figure><img src="repas1.jpg"> <figcaption>Viande Cuite</figcaption> </figure>
-            <figure><img src="repas2.jpg"> <figcaption>Repas Healty</figcaption> </figure>
-            <figure><img src="repas3.jpg"> <figcaption>Dessert Soir</figcaption> </figure></div>
+            <figure><img class="repas" src="repas1.jpg"> <figcaption>Viande Cuite</figcaption> </figure>
+            <figure><img class="repas" src="repas2.jpg"> <figcaption>Repas Healty</figcaption> </figure>
+            <figure><img class="repas" src="repas3.jpg"> <figcaption>Dessert Soir</figcaption> </figure></div>
 </section>
 </section>
 
