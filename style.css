@@ -22,6 +22,7 @@ time, mark, audio, video {
 
 /* Fin du reset */
 
+/* Début des polices */
 @font-face {
     font-family: "Gastromond";
     src: url("Gastromond.woff2"), url("Gastromond.woff");
@@ -35,6 +36,8 @@ time, mark, audio, video {
     font-family: "Superclarendon";
     src: url("Superclarendon-Regular.woff2"), url("Superclarendon-Regular.woff");
   }
+
+  /* fin des polices */
 
 body
 {
@@ -82,7 +85,6 @@ footer
     display: inline-block;
     justify-content: center;
     padding: 2%
-  /*  position: 0;*/
 } 
 
 .livre{
@@ -189,7 +191,7 @@ display: flex;
 .button-arriere{
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 75px;
+    margin-top: 60px;
     margin-left: -70px;
     border-radius: 10px;
     width: 30px;
@@ -228,6 +230,8 @@ nav {
 }
 
 
+
+
 @media screen and (max-width: 850px){
     nav{
         display: none;
@@ -241,13 +245,20 @@ nav {
     h3{
         display: none;
     }
+    .content-footer{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 850px) {
     footer {
-      display: none;
       padding-bottom: 0em;
+      display: none;
 
+
+    }
+    .bottom{
+        display: none;
     }
 
     .button-base
@@ -256,29 +267,37 @@ nav {
     padding: 10px;
     text-align: center;
     font-size: 50px;
+    border-radius: 10%;
 }
     .planning{
-    font-size: 50px;
+    font-size: 40px;
 }
+    .btn{
+        text-decoration:none; 
+
+    }
     h2{
         text-align: center;
         margin-top: 50px;
+        font-size: 30px;
     }
     .listePourCourse{
-    font-size: 50px;
+    font-size: 40px;
 }
     h3{
     display: none;
 }
     header{
         background-image: none;
-        border: 2px solid;
+        /* border: 2px solid; */
         /* margin-left: 10px;
         margin-right: 10px; */
-        background-color: #f7f2f2;
+        background-color: #42593C;
         height: 132px;
         margin-bottom: 10px;
         font-family: "Gastromond";
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .fleche{
         display: none;
@@ -333,13 +352,19 @@ nav {
     }
     .jour-desk{
         float: left;
-        width: 15%;
-        height:700px;
+        width: 30%;
+        height: 900px;
         margin-top: 50px;
     }
     .filtrer{
         margin-bottom: 30px;
     }
+    .welcome{
+        font-size: 25px;
+        font-family: "Superclarendon-light";
+        margin: 30px;
+    }
+    
   }
 
 
