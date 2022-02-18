@@ -175,6 +175,7 @@ display: flex;
     text-align: center;
     display: flex;
     font-family: "Superclarendon";
+    gap:10px;
 
 }
 
@@ -291,6 +292,7 @@ nav {
     }
     .logo-home{
         margin-top: 57px; 
+        margin-left: 10px;
     }
     .selction-jour{
         font-size: 50px;
@@ -304,8 +306,9 @@ nav {
         font-size: 40px;
         margin-bottom: 25px;
         margin-left: 10px;
-
-
+    }
+    .btn{
+        margin-right: 10px;
     }
     .style-1{
         font-size: 25px;
@@ -322,9 +325,12 @@ nav {
     }
     .jour-desk{
         float: left;
-        width: 15%;
+        width: 30%;
         height:700px;
         margin-top: 50px;
+    }
+    .filtrer{
+        margin-bottom: 30px;
     }
   }
 
