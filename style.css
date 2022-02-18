@@ -122,10 +122,6 @@ h2
     font-size: 18px;
     margin-top: 20px;
 }
-.fleche{
-    margin-bottom: 60px;
-
-}
 .livre{
     color: #F0BC00;
 }
@@ -141,7 +137,6 @@ h2
     background-color: #C3F3B7;
     font-family: "Superclarendon-light";
     border-radius: 16px;
-
 }
 
 .jourSemaine{
@@ -175,7 +170,7 @@ display: flex;
     text-align: center;
     display: flex;
     font-family: "Superclarendon";
-    gap:10px;
+    gap: 25px;
 
 }
 
@@ -185,15 +180,22 @@ display: flex;
     width: 30px;
 }
 
-.chexbox{
+.aliment-course{
     margin-left:73px;
     margin-bottom: 25px;
     font-family: "Superclarendon";
-
 }
 
 .button-arriere{
     transform: rotate(180deg);
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -70px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #C3F3B7;
 }
 
 
@@ -226,7 +228,7 @@ nav {
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 850px){
     nav{
         display: none;
     }
@@ -238,7 +240,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 850px) {
     footer {
       display: none;
       padding-bottom: 0em;
@@ -319,13 +321,13 @@ nav {
     .photo-des{
         text-align: center;
     }
-    .chexbox{
+    .aliment-course{
         margin-left:300px;
         margin-bottom: 50px;
     }
     .jour-desk{
         float: left;
-        width: 30%;
+        width: 15%;
         height:700px;
         margin-top: 50px;
     }
